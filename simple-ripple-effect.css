@@ -1,0 +1,23 @@
+@-webkit-keyframes ripple-animation {
+  0% {
+    -webkit-transform: scale(.01);
+            transform: scale(.01);
+  }
+
+  100% {
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }    
+}
+
+@keyframes ripple-animation {
+  0% {
+    -webkit-transform: scale(.01);
+            transform: scale(.01);
+  }
+
+  100% {
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }     
+}
